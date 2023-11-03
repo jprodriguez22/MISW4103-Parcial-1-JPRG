@@ -1,11 +1,11 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { CafeComponent } from './Cafe.component';
+
+import { CafeListComponent } from './Cafe-list/Cafe-list.component';
 
 @NgModule({
-  imports: [
-    CommonModule
-  ],
-  declarations: [CafeComponent]
+  imports: [CommonModule],
+  exports: [CafeListComponent],
+  declarations: [CafeListComponent]
 })
 export class CafeModule { }
