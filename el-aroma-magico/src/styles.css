@@ -9,3 +9,23 @@
 .main-shadow {
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
+.navbar-brand{
+  font-family: "Indie Flower", sans-serif;
+  font-size: 36px;
+  text-shadow: 3px 3px 3px gray;
+}
+.img-page-banner{
+  display: flex;
+  margin: auto 0px;
+}
+body{
+  margin: 23px 8rem;
+  display: flex;
+  flex-direction: column;
+  background-color: #F8F9FA;
+}
+.footer{
+  margin-top: 4vh;
+  text-align: center;
+  vertical-align: bottom;
+}

@@ -1,3 +1,15 @@
-.table-header{
+.tabla-cafes{
+    margin-left: 0!important;
+    padding: 0px;
+}
+.table-header-col{
     background-color: #333a40;
+    color: white;
+    font-weight: bolder;
+}
+.cuenta-cafe{
+    margin:0px;
+}
+.table-rows{
+    background-color: #F8F9FA;
 }
