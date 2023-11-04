@@ -1,3 +1,19 @@
-<p>
-  Cafe-list works!
-</p>
+<table class="table">
+  <thead class="table-header">
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Nombre</th>
+      <th scope="col">Tipo</th>
+      <th scope="col">Región</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr scope="row" *ngFor="let cafe of cafes">
+      <td><strong>{{ cafe.id }}</strong></td>
+      <td>{{ cafe.nombre }}</td>
+      <td>{{ cafe.tipo }}</td>
+      <td>{{ cafe.region }}</td>
+    </tr>
+  </tbody>
+</table>
+
