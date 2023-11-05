@@ -10,11 +10,11 @@
         </tr>
       </thead>
       <tbody>
-        <tr scope="row" *ngFor="let cafe of cafes">
-          <td class="table-rows"><strong>{{ cafe.id }}</strong></td>
-          <td class="table-rows">{{ cafe.nombre }}</td>
-          <td class="table-rows">{{ cafe.tipo }}</td>
-          <td class="table-rows">{{ cafe.region }}</td>
+        <tr scope="row" class="cafe-entry-row" *ngFor="let cafe of cafes">
+          <td class="table-row-col"><strong>{{ cafe.id }}</strong></td>
+          <td class="table-row-col">{{ cafe.nombre }}</td>
+          <td class="table-row-col">{{ cafe.tipo }}</td>
+          <td class="table-row-col">{{ cafe.region }}</td>
         </tr>
       </tbody>
     </table>
